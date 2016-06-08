@@ -20,8 +20,7 @@ $(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
 PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
-    TimeService \
-    Tycho
+    TimeService
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
@@ -30,11 +29,6 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
-    ConnMO \
     CNEService \
-    DCMO \
-    GCS \
-    HiddenMenu \
-    HotwordEnrollment \
-    SprintDM
+    HotwordEnrollment
 
