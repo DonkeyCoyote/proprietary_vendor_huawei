@@ -2956,4 +2956,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-compat/liblzma.so:system/lib64/vndk-sp-compat/liblzma.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-compat/libpng.so:system/lib64/vndk-sp-compat/libpng.so \
     vendor/huawei/berkeley/proprietary/lib64/vndk-sp-compat/libunwind.so:system/lib64/vndk-sp-compat/libunwind.so \
-    vendor/huawei/berkeley/proprietary/lib64/vndk-sp-compat/libutils.so:system/lib64/vndk-sp-compat/libutils.so
+    vendor/huawei/berkeley/proprietary/lib64/vndk-sp-compat/libutils.so:system/lib64/vndk-sp-compat/libutils.so \
+    vendor/huawei/berkeley/proprietary/lib64/libhwpwmanager_jni.so:system/lib64/libhwpwmanager_jni.so \
+    vendor/huawei/berkeley/proprietary/lib64/libc_secshared.so:system/lib64/libc_secshared.so \
+    vendor/huawei/berkeley/proprietary/lib64/libHidlUtil.so:system/lib64/libHidlUtil.so \
+    vendor/huawei/berkeley/proprietary/lib/libhwpwmanager_jni.so:system/lib/libhwpwmanager_jni.so \
+    vendor/huawei/berkeley/proprietary/lib/libc_secshared.so:system/lib/libc_secshared.so \
+    vendor/huawei/berkeley/proprietary/lib/libHidlUtil.so:system/lib/libHidlUtil.so
